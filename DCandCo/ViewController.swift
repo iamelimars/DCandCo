@@ -10,8 +10,10 @@ import UIKit
 import Moltin
 import SDWebImage
 
-class CategorieShopViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class CategorieShopViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, MenuTransitionManagerDelegate {
 
+    let menuTransitionManager = MenuTransitionManager()
+    
     var Array = [String]()
     var objects = [AnyObject]()
     private let PRODUCTS_LIST_SEGUE_IDENTIFIER = "productsListSegue"
@@ -53,6 +55,10 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
         // Dispose of any resources that can be recreated.
     }
 
+    func dismiss() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return objects.count
     }
@@ -111,10 +117,21 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
             newViewController.title = selectedCollectionDict!.valueForKey("title") as? String
             newViewController.collectionId = selectedCollectionDict!.valueForKeyPath("id") as? String
             
+        } else {
+            
+            let menuTableViewController = segue.destinationViewController as! CartViewController
+            //menuTableViewController.currentItem = self.title!
+            menuTableViewController.transitioningDelegate = menuTransitionManager
+            self.menuTransitionManager.delegate = self
+
+            
         }
         
     }
-
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        let sourceController = segue.sourceViewController as! CartViewController
+        //self.title = sourceController.currentItem
+    }
     
 
 }
