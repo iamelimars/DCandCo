@@ -25,7 +25,7 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
         
         
         
-        self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 1, green: 152/255, blue: 1, alpha: 1), NSFontAttributeName: UIFont(name: "Anders", size: 25)!]
+        self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 1, green: 216/255, blue: 216/255, alpha: 1), NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 20)!]
 
         //self.navigationController!.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Anders", size: 20)!]
 

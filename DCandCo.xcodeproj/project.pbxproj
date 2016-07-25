@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450572711D45953A003ED9A8 /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572701D45953A003ED9A8 /* animationViewController.swift */; };
+		450572731D45959C003ED9A8 /* animatedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572721D45959C003ED9A8 /* animatedCircle.swift */; };
 		45FB67091D334B8700A877DB /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB67081D334B8700A877DB /* MenuTransitionManager.swift */; };
 		45FB670B1D334CD500A877DB /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB670A1D334CD500A877DB /* CartViewController.swift */; };
 		883922811D2C3BF40044B91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883922801D2C3BF40044B91E /* AppDelegate.swift */; };
@@ -36,10 +38,12 @@
 
 /* Begin PBXFileReference section */
 		443B953336717D5D66AEBCEB /* Pods-DCandCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCandCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCandCo/Pods-DCandCo.debug.xcconfig"; sourceTree = "<group>"; };
+		450572701D45953A003ED9A8 /* animationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationViewController.swift; sourceTree = "<group>"; };
+		450572721D45959C003ED9A8 /* animatedCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedCircle.swift; sourceTree = "<group>"; };
 		45FB67081D334B8700A877DB /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
 		45FB670A1D334CD500A877DB /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		4E756F503A72CAB8141E5B31 /* Pods-DCandCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCandCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCandCo/Pods-DCandCo.release.xcconfig"; sourceTree = "<group>"; };
-		8839227D1D2C3BF30044B91E /* DCandCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCandCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8839227D1D2C3BF30044B91E /* DCB Couture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DCB Couture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883922801D2C3BF40044B91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		883922821D2C3BF40044B91E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		883922851D2C3BF40044B91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,7 +105,7 @@
 		8839227E1D2C3BF30044B91E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8839227D1D2C3BF30044B91E /* DCandCo.app */,
+				8839227D1D2C3BF30044B91E /* DCB Couture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +120,8 @@
 				883922B61D2C7AFD0044B91E /* ProductsCollectionCell.swift */,
 				45FB67081D334B8700A877DB /* MenuTransitionManager.swift */,
 				45FB670A1D334CD500A877DB /* CartViewController.swift */,
+				450572701D45953A003ED9A8 /* animationViewController.swift */,
+				450572721D45959C003ED9A8 /* animatedCircle.swift */,
 				883922841D2C3BF40044B91E /* Main.storyboard */,
 				883922871D2C3BF40044B91E /* Assets.xcassets */,
 				883922891D2C3BF40044B91E /* LaunchScreen.storyboard */,
@@ -175,7 +181,7 @@
 			);
 			name = DCandCo;
 			productName = DCandCo;
-			productReference = 8839227D1D2C3BF30044B91E /* DCandCo.app */;
+			productReference = 8839227D1D2C3BF30044B91E /* DCB Couture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -296,9 +302,11 @@
 				45FB67091D334B8700A877DB /* MenuTransitionManager.swift in Sources */,
 				45FB670B1D334CD500A877DB /* CartViewController.swift in Sources */,
 				883922B51D2C79910044B91E /* ProductsCollectionViewController.swift in Sources */,
+				450572731D45959C003ED9A8 /* animatedCircle.swift in Sources */,
 				883922961D2C574C0044B91E /* CategoriesCell.swift in Sources */,
 				883922831D2C3BF40044B91E /* ViewController.swift in Sources */,
 				883922811D2C3BF40044B91E /* AppDelegate.swift in Sources */,
+				450572711D45953A003ED9A8 /* animationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +423,7 @@
 				INFOPLIST_FILE = DCandCo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.DCandCo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DCB Couture";
 				SWIFT_OBJC_BRIDGING_HEADER = DCandCo/BridgingHeader.h;
 			};
 			name = Debug;
@@ -428,7 +436,7 @@
 				INFOPLIST_FILE = DCandCo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.DCandCo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DCB Couture";
 				SWIFT_OBJC_BRIDGING_HEADER = DCandCo/BridgingHeader.h;
 			};
 			name = Release;
