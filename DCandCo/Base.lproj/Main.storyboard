@@ -9,7 +9,7 @@
         <mutableArray key="BebasNeue Light.otf">
             <string>BebasNeueLight</string>
         </mutableArray>
-        <mutableArray key="OstrichSans-Medium.otf">
+        <mutableArray key="ostrich-regular.ttf">
             <string>OstrichSans-Medium</string>
             <string>OstrichSans-Medium</string>
         </mutableArray>
@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E0D-aE-jvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1102.5" y="-396.5"/>
+            <point key="canvasLocation" x="1160.5" y="-430.5"/>
         </scene>
         <!--DCB&Co.-->
         <scene sceneID="FTl-uK-gfs">
@@ -211,12 +211,88 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <segue destination="cFJ-6Z-icX" kind="show" identifier="animationFinished" id="rkB-xk-u6i"/>
+                        <segue destination="bi1-x7-tKD" kind="show" identifier="animationFinished" id="PX7-b2-PPP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lp2-bl-2y5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-195.5" y="438.5"/>
+            <point key="canvasLocation" x="-720.5" y="406.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7ga-bQ-Z0i">
+            <objects>
+                <viewController id="bi1-x7-tKD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Bb-dH-kN3"/>
+                        <viewControllerLayoutGuide type="bottom" id="aNy-Gc-BtT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sSs-fI-6YI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Beach 6 Plus" translatesAutoresizingMaskIntoConstraints="NO" id="gFq-3V-ZZe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-gi-8dD">
+                                <rect key="frame" x="-2" y="0.0" width="377" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Round Logo" translatesAutoresizingMaskIntoConstraints="NO" id="zeu-zo-Sre">
+                                        <rect key="frame" x="113" y="65" width="150" height="150"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XD9-IC-Sxc">
+                                <rect key="frame" x="202" y="475" width="126" height="30"/>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgx-xa-p0S">
+                                <rect key="frame" x="56" y="475" width="124" height="30"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iLY-PM-EEG">
+                                <rect key="frame" x="67" y="319" width="241" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.84705882349999995" blue="0.84705882349999995" alpha="0.85716594830000004" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fx3-xd-nq2">
+                                <rect key="frame" x="67" y="373" width="241" height="30"/>
+                                <color key="backgroundColor" red="0.43137254901960786" green="0.45098039215686275" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKr-yW-RTh">
+                                <rect key="frame" x="111" y="525" width="153" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Continue As Guest">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cFJ-6Z-icX" kind="show" id="GJT-RN-p41"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV6-it-WLm">
+                                <rect key="frame" x="120" y="607" width="135" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Terms &amp; Conditions">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A4g-B6-knr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154.5" y="415.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b0Y-c5-2AP">
@@ -234,7 +310,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWL-Hz-ajq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="390" y="405"/>
+            <point key="canvasLocation" x="472.5" y="407.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Beach 6 Plus" width="414" height="736"/>
+        <image name="Round Logo" width="186" height="186"/>
+    </resources>
 </document>

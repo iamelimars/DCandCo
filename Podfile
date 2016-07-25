@@ -9,5 +9,7 @@ pod 'Moltin'
 
 pod 'SDWebImage', '~>3.8'
 
+pod ‘TextFieldEffects’
+
 end
 

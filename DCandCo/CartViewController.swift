@@ -31,6 +31,7 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) 
         
         cell.textLabel?.text = menuItems[indexPath.row]
+        cell.textLabel?.font = UIFont(name: "HelveticaNeue-UltraLight", size: 20)
         cell.textLabel?.textColor = UIColor.whiteColor()
         cell.backgroundColor = UIColor.blackColor()
         
