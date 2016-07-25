@@ -11,6 +11,7 @@
 		450572731D45959C003ED9A8 /* animatedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572721D45959C003ED9A8 /* animatedCircle.swift */; };
 		450EF68D1D4675A5006100E1 /* Beach 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */; };
 		450EF68E1D4675A5006100E1 /* DianaAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EF68C1D4675A5006100E1 /* DianaAppIcon.png */; };
+		450EF6921D468646006100E1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EF6911D468646006100E1 /* LoginViewController.swift */; };
 		45FB67091D334B8700A877DB /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB67081D334B8700A877DB /* MenuTransitionManager.swift */; };
 		45FB670B1D334CD500A877DB /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB670A1D334CD500A877DB /* CartViewController.swift */; };
 		883922811D2C3BF40044B91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883922801D2C3BF40044B91E /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 		450572721D45959C003ED9A8 /* animatedCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedCircle.swift; sourceTree = "<group>"; };
 		450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach 6 Plus.png"; sourceTree = "<group>"; };
 		450EF68C1D4675A5006100E1 /* DianaAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DianaAppIcon.png; sourceTree = "<group>"; };
+		450EF6911D468646006100E1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45FB67081D334B8700A877DB /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
 		45FB670A1D334CD500A877DB /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		4E756F503A72CAB8141E5B31 /* Pods-DCandCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCandCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCandCo/Pods-DCandCo.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				883922801D2C3BF40044B91E /* AppDelegate.swift */,
 				883922951D2C574C0044B91E /* CategoriesCell.swift */,
+				450EF6911D468646006100E1 /* LoginViewController.swift */,
 				883922821D2C3BF40044B91E /* ViewController.swift */,
 				883922B41D2C79910044B91E /* ProductsCollectionViewController.swift */,
 				883922B61D2C7AFD0044B91E /* ProductsCollectionCell.swift */,
@@ -314,6 +317,7 @@
 				883922961D2C574C0044B91E /* CategoriesCell.swift in Sources */,
 				883922831D2C3BF40044B91E /* ViewController.swift in Sources */,
 				883922811D2C3BF40044B91E /* AppDelegate.swift in Sources */,
+				450EF6921D468646006100E1 /* LoginViewController.swift in Sources */,
 				450572711D45953A003ED9A8 /* animationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
