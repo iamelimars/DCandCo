@@ -29,11 +29,12 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) 
-        
+        //OstrichSansRounded-Medium
+        //HelveticaNeue-Light
         cell.textLabel?.text = menuItems[indexPath.row]
-        cell.textLabel?.font = UIFont(name: "HelveticaNeue-UltraLight", size: 20)
-        cell.textLabel?.textColor = UIColor.whiteColor()
-        cell.backgroundColor = UIColor.blackColor()
+        cell.textLabel?.font = UIFont(name: "OstrichSans-Medium", size: 20)
+        cell.textLabel?.textColor = UIColor.darkGrayColor()
+        cell.backgroundColor = UIColor.init(colorLiteralRed: 255/255.0, green: 216/255.0, blue: 216/255.0, alpha: 1)
         
         return cell
         

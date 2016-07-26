@@ -21,7 +21,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         
         let borderAlpha : CGFloat = 0.7
-        let cornerRadius : CGFloat = 0.0
+        let cornerRadius : CGFloat = 5.0
 
         
         self.emailText.delegate = self
