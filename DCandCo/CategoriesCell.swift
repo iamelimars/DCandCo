@@ -11,6 +11,7 @@ import SDWebImage
 
 class CategoriesCell: UICollectionViewCell {
     
+    @IBOutlet weak var cellFilterView: UIView!
     @IBOutlet var imageView: UIImageView!
     
     func setCollectionDictionary(dict: NSDictionary) {

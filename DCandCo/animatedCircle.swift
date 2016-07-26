@@ -34,7 +34,7 @@ class animatedCircle: NSObject {
         progressLine.path = ovalPath.CGPath
         progressLine.strokeColor = strokecolor.CGColor
         progressLine.fillColor = UIColor.clearColor().CGColor
-        progressLine.lineWidth = 0.4
+        progressLine.lineWidth = 0.6
         progressLine.lineCap = kCALineCapRound
         
         // add the curve to the screen

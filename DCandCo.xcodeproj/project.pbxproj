@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450440091D4720290072BFF5 /* menuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450440081D4720280072BFF5 /* menuTableViewController.swift */; };
 		450572711D45953A003ED9A8 /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572701D45953A003ED9A8 /* animationViewController.swift */; };
 		450572731D45959C003ED9A8 /* animatedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572721D45959C003ED9A8 /* animatedCircle.swift */; };
 		450EF68D1D4675A5006100E1 /* Beach 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		443B953336717D5D66AEBCEB /* Pods-DCandCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCandCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCandCo/Pods-DCandCo.debug.xcconfig"; sourceTree = "<group>"; };
+		450440081D4720280072BFF5 /* menuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuTableViewController.swift; sourceTree = "<group>"; };
 		450572701D45953A003ED9A8 /* animationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationViewController.swift; sourceTree = "<group>"; };
 		450572721D45959C003ED9A8 /* animatedCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedCircle.swift; sourceTree = "<group>"; };
 		450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach 6 Plus.png"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				45FB670A1D334CD500A877DB /* CartViewController.swift */,
 				450572701D45953A003ED9A8 /* animationViewController.swift */,
 				450572721D45959C003ED9A8 /* animatedCircle.swift */,
+				450440081D4720280072BFF5 /* menuTableViewController.swift */,
 				883922841D2C3BF40044B91E /* Main.storyboard */,
 				450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */,
 				450EF68C1D4675A5006100E1 /* DianaAppIcon.png */,
@@ -318,6 +321,7 @@
 				883922831D2C3BF40044B91E /* ViewController.swift in Sources */,
 				883922811D2C3BF40044B91E /* AppDelegate.swift in Sources */,
 				450EF6921D468646006100E1 /* LoginViewController.swift in Sources */,
+				450440091D4720290072BFF5 /* menuTableViewController.swift in Sources */,
 				450572711D45953A003ED9A8 /* animationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

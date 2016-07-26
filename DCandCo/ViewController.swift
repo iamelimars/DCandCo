@@ -12,9 +12,18 @@ import SDWebImage
 
 class CategorieShopViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, MenuTransitionManagerDelegate {
 
+    @IBOutlet weak var categoriesFilterView: UIView!
     let menuTransitionManager = MenuTransitionManager()
     
     var Array = [String]()
+    var colorsArray = [UIColor.init(colorLiteralRed: 1, green: 216/255.0, blue: 216/255.0, alpha: 0.7),
+                       UIColor.init(colorLiteralRed: 153/255.0, green: 206/255.0, blue: 212/255.0, alpha: 0.7),
+                       UIColor.init(colorLiteralRed: 110/255.0, green: 115/255.0, blue: 118/255.0, alpha: 0.7),
+                       UIColor.init(colorLiteralRed: 245/255.0, green: 215/255.0, blue: 110/255.0, alpha: 0.7),
+                       UIColor.init(colorLiteralRed: 68/255.0, green: 0, blue: 0, alpha: 0.7),
+                       UIColor.init(colorLiteralRed: 62/255.0, green: 85/255.0, blue: 155/255.0, alpha: 0.7)
+                       ]
+    
     var objects = [AnyObject]()
     private let PRODUCTS_LIST_SEGUE_IDENTIFIER = "productsListSegue"
     private var selectedCollectionDict:NSDictionary?
@@ -22,7 +31,6 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         
         
         self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 1, green: 216/255, blue: 216/255, alpha: 1), NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 20)!]
@@ -82,7 +90,8 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
         }
         
         cell.imageView?.sd_setImageWithURL(NSURL(string: imageUrl))
-        
+        //cell.cellFilterView.backgroundColor = colorsArray[indexPath.row]
+        //cell.cellFilterView.backgroundColor?.colorWithAlphaComponent(0.85)
         
         return cell
         
@@ -119,9 +128,9 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
             
         } else {
             
-            let menuTableViewController = segue.destinationViewController as! CartViewController
+            let menuTableViewControllerr = segue.destinationViewController as! menuTableViewController
             //menuTableViewController.currentItem = self.title!
-            menuTableViewController.transitioningDelegate = menuTransitionManager
+            menuTableViewControllerr.transitioningDelegate = menuTransitionManager
             self.menuTransitionManager.delegate = self
 
             
@@ -129,7 +138,7 @@ class CategorieShopViewController: UICollectionViewController, UICollectionViewD
         
     }
     @IBAction func unwindToHome(segue: UIStoryboardSegue) {
-        let sourceController = segue.sourceViewController as! CartViewController
+        let sourceController = segue.sourceViewController as! menuTableViewController
         //self.title = sourceController.currentItem
     }
     

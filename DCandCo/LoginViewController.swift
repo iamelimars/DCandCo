@@ -27,6 +27,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         self.emailText.delegate = self
         self.passwordText.delegate = self
         
+        emailText.layer.cornerRadius = cornerRadius
+        passwordText.layer.cornerRadius = cornerRadius
+        
         //Border for buttons
         
         loginButton.layer.borderWidth = 1.0

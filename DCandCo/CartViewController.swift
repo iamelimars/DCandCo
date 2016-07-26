@@ -31,6 +31,7 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) 
         //OstrichSansRounded-Medium
         //HelveticaNeue-Light
+        cell.userInteractionEnabled = true
         cell.textLabel?.text = menuItems[indexPath.row]
         cell.textLabel?.font = UIFont(name: "OstrichSans-Medium", size: 20)
         cell.textLabel?.textColor = UIColor.darkGrayColor()
@@ -38,6 +39,19 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         return cell
         
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        let cell = tableView.cellForRowAtIndexPath(indexPath)
+        
+        print("selected")
+        print("%@", indexPath.row)
+        if (indexPath.row == 2) {
+            print("toAllProducts")
+            [self .performSegueWithIdentifier("toAllProducts", sender: self)]
+        }
     }
     
 }
