@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - MIBadgeButton-Swift (0.4)
   - Moltin (1.1.5):
     - AFNetworking
   - SDWebImage (3.8.1):
@@ -22,16 +23,18 @@ PODS:
   - TextFieldEffects (1.2.0)
 
 DEPENDENCIES:
+  - MIBadgeButton-Swift
   - Moltin
   - SDWebImage (~> 3.8)
   - TextFieldEffects
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MIBadgeButton-Swift: b5d07924904c84bcb8e8fe3c3131b8499f28930c
   Moltin: 80fe95499216cf783c183bc56352b6b92a3e4836
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
 
-PODFILE CHECKSUM: 156043ea81ca4c7eba80122dfffe2589a54e8560
+PODFILE CHECKSUM: 581cfa72a3fde38e960395b6229c6bc96ece9906
 
 COCOAPODS: 1.0.1

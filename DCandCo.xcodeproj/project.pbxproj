@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		450440091D4720290072BFF5 /* menuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450440081D4720280072BFF5 /* menuTableViewController.swift */; };
+		4504CB721D483A8400A858C1 /* ecommerce_bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4504CB711D483A8400A858C1 /* ecommerce_bag.png */; };
+		4504CB741D483BAD00A858C1 /* ecommerce_bag30.png in Resources */ = {isa = PBXBuildFile; fileRef = 4504CB731D483BAD00A858C1 /* ecommerce_bag30.png */; };
+		4504CB761D483C3900A858C1 /* ecommerce_bag.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4504CB751D483C3900A858C1 /* ecommerce_bag.pdf */; };
+		4504CB781D483CEF00A858C1 /* ecommerce_bag25.png in Resources */ = {isa = PBXBuildFile; fileRef = 4504CB771D483CEF00A858C1 /* ecommerce_bag25.png */; };
 		450572711D45953A003ED9A8 /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572701D45953A003ED9A8 /* animationViewController.swift */; };
 		450572731D45959C003ED9A8 /* animatedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450572721D45959C003ED9A8 /* animatedCircle.swift */; };
 		450EF68D1D4675A5006100E1 /* Beach 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */; };
@@ -43,6 +47,10 @@
 /* Begin PBXFileReference section */
 		443B953336717D5D66AEBCEB /* Pods-DCandCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCandCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCandCo/Pods-DCandCo.debug.xcconfig"; sourceTree = "<group>"; };
 		450440081D4720280072BFF5 /* menuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuTableViewController.swift; sourceTree = "<group>"; };
+		4504CB711D483A8400A858C1 /* ecommerce_bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecommerce_bag.png; sourceTree = "<group>"; };
+		4504CB731D483BAD00A858C1 /* ecommerce_bag30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecommerce_bag30.png; sourceTree = "<group>"; };
+		4504CB751D483C3900A858C1 /* ecommerce_bag.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ecommerce_bag.pdf; sourceTree = "<group>"; };
+		4504CB771D483CEF00A858C1 /* ecommerce_bag25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecommerce_bag25.png; sourceTree = "<group>"; };
 		450572701D45953A003ED9A8 /* animationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationViewController.swift; sourceTree = "<group>"; };
 		450572721D45959C003ED9A8 /* animatedCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedCircle.swift; sourceTree = "<group>"; };
 		450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach 6 Plus.png"; sourceTree = "<group>"; };
@@ -133,6 +141,10 @@
 				450572721D45959C003ED9A8 /* animatedCircle.swift */,
 				450440081D4720280072BFF5 /* menuTableViewController.swift */,
 				883922841D2C3BF40044B91E /* Main.storyboard */,
+				4504CB771D483CEF00A858C1 /* ecommerce_bag25.png */,
+				4504CB751D483C3900A858C1 /* ecommerce_bag.pdf */,
+				4504CB731D483BAD00A858C1 /* ecommerce_bag30.png */,
+				4504CB711D483A8400A858C1 /* ecommerce_bag.png */,
 				450EF68B1D4675A5006100E1 /* Beach 6 Plus.png */,
 				450EF68C1D4675A5006100E1 /* DianaAppIcon.png */,
 				883922871D2C3BF40044B91E /* Assets.xcassets */,
@@ -236,10 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				450EF68E1D4675A5006100E1 /* DianaAppIcon.png in Resources */,
+				4504CB741D483BAD00A858C1 /* ecommerce_bag30.png in Resources */,
 				883922A71D2C649E0044B91E /* OstrichSans-Black.otf in Resources */,
 				883922AC1D2C64B60044B91E /* OstrichSansDashed-Medium.otf in Resources */,
 				883922B01D2C64C50044B91E /* BebasNeue Book.otf in Resources */,
 				8839228B1D2C3BF40044B91E /* LaunchScreen.storyboard in Resources */,
+				4504CB721D483A8400A858C1 /* ecommerce_bag.png in Resources */,
 				883922AE1D2C64BF0044B91E /* Anders.ttf in Resources */,
 				883922AB1D2C64B10044B91E /* OstrichSans-Medium.otf in Resources */,
 				883922AA1D2C64AE0044B91E /* OstrichSans-Light.otf in Resources */,
@@ -247,8 +261,10 @@
 				883922B21D2C64CB0044B91E /* BebasNeue Regular.otf in Resources */,
 				883922B31D2C64CD0044B91E /* BebasNeue Thin.otf in Resources */,
 				883922881D2C3BF40044B91E /* Assets.xcassets in Resources */,
+				4504CB781D483CEF00A858C1 /* ecommerce_bag25.png in Resources */,
 				883922A61D2C649B0044B91E /* ostrich-regular.ttf in Resources */,
 				450EF68D1D4675A5006100E1 /* Beach 6 Plus.png in Resources */,
+				4504CB761D483C3900A858C1 /* ecommerce_bag.pdf in Resources */,
 				883922A81D2C64A50044B91E /* OstrichSans-Bold.otf in Resources */,
 				883922B11D2C64C80044B91E /* BebasNeue Light.otf in Resources */,
 				883922861D2C3BF40044B91E /* Main.storyboard in Resources */,

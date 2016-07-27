@@ -11,5 +11,7 @@ pod 'SDWebImage', '~>3.8'
 
 pod ‘TextFieldEffects’
 
+pod "MIBadgeButton-Swift"
+
 end
 
